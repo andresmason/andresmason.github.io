@@ -1,7 +1,33 @@
 body {
-	margin-left: 1em;
+	margin: 1em;
+	padding: .5em;
+	display: block;
 }
 
-div {
-	background-color: rgba(131, 173, 201, .2);
+h3 {
+	background-color: rgba(131, 173, 201, .3);
+}
+
+h3:hover {
+	background-color: rgba(131, 173, 201, .5);
+}
+
+/* creates drop down effect without javascript */
+/* removes check on the checkbox */
+.togCheck { display: none; }
+ 
+/* (B) HIDE CONTENT BY DEFAULT */
+.togContent {
+  max-height: 0;
+  visibility: hidden;
+  transition: max-height 1.5s;
+}
+ 
+/* (X3) CONTENT */
+.togContent { background: rgba(131, 173, 201, .05); }
+
+/* (C) SHOW CONTENT WHEN CHECKED */
+.togCheck:checked + .togContent {
+  max-height: 100em; /* any insanely large number if a lot of contents */
+  visibility: visible;
 }
