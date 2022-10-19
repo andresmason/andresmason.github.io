@@ -26,6 +26,7 @@ body {
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   cursor: pointer;
+  color: rgba(255, 255, 255, .8);
   padding: 18px;
   width: 100%;
   border: none;
@@ -51,12 +52,10 @@ body {
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-  color: white;
+  content: "\2796"; /* Unicode character for "minus" sign (-) */;
 }
