@@ -4,7 +4,12 @@
 	<!--Required meta tags-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Styles-->
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,8 +19,9 @@
     	aamason@andrew.cmu.edu<br>949.798.9396</p>
   </div>
 
-	<h3>Experience</h3>
-	<div class="experience">
+  <!--Experience-->
+	<button type="button" class="experience collapsible">Experience</button>
+	<div class="content">
 		<ul>
 			<li>Google, SWE Intern, On Data Abuse Detection Team for Android</li>
 			<li>Google, STEP Intern, Google News Android</li>
@@ -32,8 +38,9 @@
 		</ul>
 	</div>
 	
-	<h3>Skills</h3>
-	<div class="skills">
+	<!--Skills-->
+	<button type="button" class="skills collapsible">Skills</button>
+	<div class="content">
 		<ul>
 			<li>Java, 5+ years - STEP Intern exp, Android Studio, Minecraft Mods in middle school lol</li>
 			<li>Python, 1+ year - SWE Intern exp, Tensorflow</li>
@@ -44,8 +51,9 @@
 		</ul>
 	</div>
 
-	<h3>Projects</h3>
-	<div class="projects">
+	<!--Projects-->
+	<button type="button" class="projects collapsible">Projects</button>
+	<div class="content">
 		<ul>
 			<li>
 			C0VM- created bytecode interpreter for Java-like language C0 (C not), written in C
@@ -71,10 +79,9 @@
 		</ul>
 	</div>
 	
-
-	<label for="misc" class="togButton small-head"><h3>Misc</h3></label>
-	<input type="checkbox" class="togCheck" id="misc"/>
-	<div class="togContent unrelated">
+<!--Misc-->
+<button type="button" class="misc collapsible">Misc</button>
+	<div class="content">
 		<ul>
 			<li>Amy's House - built memorial playhouse for Eagle Project</li>
 			<li>Line Art - let me illustrate your next project</li>
@@ -84,5 +91,7 @@
 		</ul>
 	</div>
 
+	<!--Scripts--->
+	<script src="collapsible.js"></script>
 </body>
 </html>
