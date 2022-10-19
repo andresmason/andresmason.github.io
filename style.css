@@ -8,6 +8,7 @@ body {
 	}
 
 
+/* LINK EDITING */
 a:visited {
 	color: white;
 }
@@ -18,6 +19,7 @@ a:hover{
 }
 
 
+/* GRADIENT */
 .experience{
 	background-color: rgba(131, 173, 210, .4);
 }
@@ -33,6 +35,7 @@ a:hover{
 
 
 /* COLLAPSIBLE FIELD STLYES */
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   cursor: pointer;
