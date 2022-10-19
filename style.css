@@ -3,7 +3,7 @@ body {
 	padding: .5em;
 	display: block;
 	font-family: 'Montserrat', sans-serif;
-	background-image: url(images/wave.svg);
+	background-image: url("./images/wave.svg");
 	color: white;
 	}
 
