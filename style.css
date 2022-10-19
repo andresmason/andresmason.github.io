@@ -8,6 +8,16 @@ body {
 	}
 
 
+a:visited {
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	text-decoration-color: whitesmoke;
+}
+
+
 .experience{
 	background-color: rgba(131, 173, 210, .4);
 }
