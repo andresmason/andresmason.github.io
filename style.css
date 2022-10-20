@@ -7,6 +7,12 @@ body {
 	color: white;
 	}
 
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2em;
+  padding-bottom: .5em;
+}
 
 /* LINK EDITING */
 a:visited {
