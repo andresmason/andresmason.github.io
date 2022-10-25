@@ -24,6 +24,9 @@ a:hover{
 	text-decoration-color: whitesmoke;
 }
 
+a:link{
+  color: white;
+}
 
 /* GRADIENT */
 .experience{
