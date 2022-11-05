@@ -33,6 +33,11 @@ p {
 .recent-panel {
   display: flex;
 }
+@media screen and (max-width: 1000px){
+.recent-panel{
+  display: block;
+}
+}
 
 .updates {
   line-height: 150%;
