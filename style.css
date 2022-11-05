@@ -33,10 +33,17 @@ p {
 .recent-panel {
   display: flex;
 }
+
 @media screen and (max-width: 1000px){
 .recent-panel{
-  display: block;
+  display: inline-block;
 }
+}
+
+@media screen and (min-width: 250px){
+  .shops {
+    display: inline-block;
+  }
 }
 
 .updates {
@@ -61,7 +68,6 @@ p {
 
 /* Projects page really */
 .shops {
-  display: flex;
   margin: auto;
   padding: auto;
   justify-content: center;
@@ -79,13 +85,6 @@ p {
 
 .logo:hover {
   background-color: rgba(50, 50, 50, .55);
-}
-
-.air {
-  bottom: 0;
-  height: 2em;
-  padding-bottom: .5em;
-  margin-bottom: .5em;
 }
 
 /* Resume page mostly */
