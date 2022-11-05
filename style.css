@@ -14,8 +14,6 @@ header {
 /* LINK EDITING */
 a {
   text-decoration: none;
-  width: fit-content;
-  margin: 0 1em;
 }
 
 a:visited {
@@ -31,6 +29,32 @@ p {
   margin: auto auto;
 }
 
+/* Index flex stuff */
+.recent-panel {
+  display: flex;
+}
+
+.updates {
+  line-height: 150%;
+  max-width: 50%;
+  margin-right: auto;
+}
+
+.spaced {
+  line-height: 150%;
+}
+
+.socials {
+  margin-top: 2px;
+  max-width: 1.5em;
+}
+
+.linked {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+/* Projects page really */
 .shops {
   display: flex;
   margin: auto;
@@ -44,6 +68,8 @@ p {
   padding: 50px 10px;
   border-radius: 15px;
   margin-top: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 .logo:hover {
@@ -57,6 +83,7 @@ p {
   margin-bottom: .5em;
 }
 
+/* Resume page mostly */
 /* GRADIENT */
 .illustration {
   background-color: rgba(131, 173, 210, .19);
@@ -87,6 +114,8 @@ p {
 }
 .vertical-line {
   border-left: 1px solid #FFFFFF;
+  margin-right: .5em;
+  margin-left: .5em;
 }
 
 /* COLLAPSIBLE FIELD STLYES */
@@ -115,6 +144,7 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  margin-bottom: .2em;
 }
 
 .collapsible:after {
