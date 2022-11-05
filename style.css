@@ -37,6 +37,8 @@ p {
 @media screen and (max-width: 1000px){
 .recent-panel{
   display: inline-block;
+  width: 100%;
+  font-size: 13px;
 }
 }
 
