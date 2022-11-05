@@ -11,14 +11,6 @@ header {
   position: ;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  height: 2em;
-  padding-bottom: .5em;
-  margin-bottom: .5em;
-}
-
 /* LINK EDITING */
 a {
   text-decoration: none;
@@ -34,9 +26,29 @@ a:link{
   color: white;
 }
 
+p {
+  padding-top: 1em;
+  margin: auto auto;
+}
+
 .logo {
   width: auto;
   height: 40px;
+  background-color: rgba(0, 0, 0, .65);
+  padding: 50px 10px;
+  border-radius: 15px;
+  margin-top: 1em;
+}
+
+.logo:hover {
+  background-color: rgba(50, 50, 50, .55);
+}
+
+.air {
+  bottom: 0;
+  height: 2em;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
 }
 
 /* GRADIENT */
