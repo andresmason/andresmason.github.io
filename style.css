@@ -37,6 +37,9 @@ p {
 @media screen and (max-width: 1000px){
 .recent-panel{
   display: inline-block;
+}
+
+.updates{
   width: 100%;
   font-size: 13px;
 }
@@ -45,12 +48,12 @@ p {
 @media screen and (min-width: 250px){
   .shops {
     display: inline-block;
+    width: 100%;
   }
 }
 
 .updates {
   line-height: 150%;
-  max-width: 50%;
   margin-right: auto;
 }
 
