@@ -2,4 +2,4 @@
 personal resume site
 
 Contact:
-aamason <at> andrew <dot> cmu <dot> edu
+aamason@andrew.cmu.edu
